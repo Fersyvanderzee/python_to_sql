@@ -1,6 +1,5 @@
 import mysql.connector
 
-
 host = ""
 user_name = ""
 password = ""
@@ -29,5 +28,3 @@ def show_tables(db):
 
     for x in curs:
         return(x)
-
-
