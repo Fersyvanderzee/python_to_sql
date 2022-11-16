@@ -13,6 +13,7 @@ db = mysql.connector.connect(
 )
 
 
+
 # Delete db from connector in order to use this.
 def show_db(db):
     curs = db.cursor()
